@@ -6,25 +6,36 @@ body{
 .background{
     position: absolute;
     width: 100%; 
+    left: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
 }
 .navbar {
-    margin: 0 auto;
-    position: relative;
-    display: flex;
-    font-size: 200px;
-    top: 100px;
-    height: 600px;
-    width: 3556px;
-    background-image: url("./image/backiee-115086.jpg");
-    background-repeat: no-repeat;
-    /* box-shadow: rgb(34, 39, 193)  0px 0px 0px 2px inset,rgba(36, 42, 212) 0px 0px 50px 15px inset,rgba(36, 42, 212) 0px 0px 50px 15px inset,rgb(34, 39, 193) 0px 0px 0px 2px,rgba(36, 42, 212) 0px 0px 50px 20px,rgba(36, 42, 212) 0px 0px 50px 20px;  */
-    /* box-shadow: rgb(4, 8, 41)  0px 0px 0px 2px inset,rgb(0, 0, 0) 0px 0px 50px 15px inset,rgb(0, 0, 0) 0px 0px 50px 15px inset,rgb(0, 0, 0) 0px 0px 0px 2px,rgb(0, 0, 0) 0px 0px 50px 20px,rgb(0, 0, 0) 0px 0px 50px 20px;  */
-    box-shadow: rgb(4, 8, 41)  0px 0px 0px 2px inset,rgb(4, 8, 41) 0px 0px 50px 15px inset,    rgb(4, 8, 41) 0px 0px 50px 15px inset,    rgb(4, 8, 41) 0px 0px 0px 2px,    rgb(4, 8, 41) 0px 0px 50px 20px,    rgb(4, 8, 41) 0px 0px 50px 20px; 
+    position:absolute;
+    /* display:flex; */
+    background-color: aqua;
 
+    height: 300px; 
+    font-size: 50px;
+    /* background-color: blueviolet; */
+    /* background-repeat: no-repeat; */
+    /* box-shadow: rgb(34, 39, 193)  0px 0px 0px 2px inset,rgba(36, 42, 212) 0px 0px 50px 15px inset,rgba(36, 42, 212) 0px 0px 50px 15px inset,rgb(34, 39, 193) 0px 0px 0px 2px,rgba(36, 42, 212) 0px 0px 50px 20px,rgba(36, 42, 212) 0px 0px 50px 20px;  */
+    box-shadow: rgb(4, 8, 41)  0px 0px 0px 2px inset,rgb(0, 0, 0) 0px 0px 50px 15px inset,rgb(0, 0, 0) 0px 0px 50px 15px inset,rgb(0, 0, 0) 0px 0px 0px 2px,rgb(0, 0, 0) 0px 0px 50px 20px,rgb(0, 0, 0) 0px 0px 50px 20px; 
+    box-shadow: rgb(4, 8, 41)  0px 0px 0px 2px inset,rgb(4, 8, 41) 0px 0px 50px 15px inset,    rgb(4, 8, 41) 0px 0px 50px 15px inset,    rgb(4, 8, 41) 0px 0px 0px 2px,    rgb(4, 8, 41) 0px 0px 50px 20px,    rgb(4, 8, 41) 0px 0px 50px 20px; 
+ 
     border-radius: 50px;
 
-    border-block-end-width: 100px;
 }   
+.bg_img{
+    
+    height: 100%;
+    /* box-shadow: rgb(4, 8, 41)  0px 0px 0px 2px inset,rgb(0, 0, 0) 0px 0px 50px 15px inset,rgb(0, 0, 0) 0px 0px 50px 15px inset,rgb(0, 0, 0) 0px 0px 0px 2px,rgb(0, 0, 0) 0px 0px 50px 20px,rgb(0, 0, 0) 0px 0px 50px 20px;  */
+    box-shadow: rgb(4, 8, 41)  0px 0px 0px 2px inset,rgb(4, 8, 41) 0px 0px 50px 15px inset,    rgb(4, 8, 41) 0px 0px 50px 15px inset,    rgb(4, 8, 41) 0px 0px 0px 2px,    rgb(4, 8, 41) 0px 0px 50px 20px,    rgb(4, 8, 41) 0px 0px 50px 20px;  
+    border-radius: 50px;
+    
+}
 .navbar > p1{
     position: absolute;
     top: 80px;
@@ -35,34 +46,9 @@ body{
     position: absolute;
     top: 80px;
     right:300px;
-   
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
-.frame_out{
-    position:relative;
-    top: 100;
-    height: 1000px;
-    width: 1000px;
-    width: 100%;
-    background-color: blue;
-}
-
-.frame_in_1{
-    position: absolute;
-    top:0;
-    height: 50px;
-    width: 150px;
-    background-color: aqua;
-}
-.frame_in_2{
-    top:0;
-    right: 0;
-    position: absolute;
-    height: 150px;
-    width: 50px;
-    background-color: rgb(255, 0, 217);
-}
 .Card_body{
     height: 100px;
     width: 100px;

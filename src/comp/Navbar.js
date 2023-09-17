@@ -1,16 +1,16 @@
-import bg_image from "../image/6000x4000-bg.jpg"
+import bar_image from "../image/backiee-115086.jpg"
 export default function Navbar(){
     return( 
         <>
-                 <div className="navbar">
+            <div className="navbar">
+                <img className="bg_img" src={bar_image}></img>
                 <p1>FINAL</p1>  <p2>SPACE</p2>
             </div>
 
-            {/* <div className="frame_out">
-                
-                <div className="frame_in_1">{f1}</div>
-                <div className="frame_in_2"></div>
-            </div> */}
+            <div class="grid-container">
+                <div className="frame_in_1">1</div>
+                <div className="frame_in_2">2</div>
+            </div>
 
         </>
     )
